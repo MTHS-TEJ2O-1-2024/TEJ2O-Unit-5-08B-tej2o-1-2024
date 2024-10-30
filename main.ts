@@ -14,7 +14,7 @@ while (true) {
     if (input.buttonIsPressed(Button.A) == true) {
         // turn the motor 180 degrees
         basic.showIcon(IconNames.Yes)
-        robotbit.StepperTurn(robotbit.Steppers.M1, robotbit.Turns.T1B0)
+        robotbit.StepperTurn(robotbit.Steppers.M1, robotbit.Turns.T1B2)
         basic.showIcon(IconNames.Happy)
     }
 
